@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CALCULATOR
+        </title>
+    <link rel="stylesheet" href="a.css">
+    </head>
+    <body>
+<div class="container">
+    <div class="calculator">
+        <form>
+            <div>
+                <input type="text" name="display" style="width: 180px;">
+                <input type="button" value="AC" style="background-color: hsl(188, 86%, 47%);"onclick="display.value = ' ' ">
+            </div>
+            <div>
+                <input type="button" value="9" style="background-color: black; color: white;" onclick="display.value += '9' ">
+                <input type="button" value="8" style="background-color: black; color: white;" onclick="display.value += '8' ">
+                <input type="button" value="7" style="background-color: black; color: white;" onclick="display.value += '7' ">
+                <input type="button" value="+" style="background-color: grey;"onclick="display.value += '+' ">
+            </div>
+            <div>
+                <input type="button" value="4" style="background-color: black; color: white;"onclick="display.value += '4' ">
+                <input type="button" value="5" style="background-color: black; color: white;"onclick="display.value += '5' ">
+                <input type="button" value="6" style="background-color: black; color: white;"onclick="display.value += '6' ">
+                <input type="button" value="-" style="background-color: grey;" onclick="display.value += '-' ">
+            </div>
+            <div>
+                <input type="button" value="1" style="background-color: black; color: white;"onclick="display.value += '1' ">
+                <input type="button" value="2" style="background-color: black; color: white;"onclick="display.value += '2' ">
+                <input type="button" value="3" style="background-color: black; color: white;"onclick="display.value += '3' ">
+                <input type="button" value="/" style="background-color: grey;"onclick="display.value += '/' ">
+            </div>
+            <div>
+                <input type="button" value="." style="background-color: black; color: white;"onclick="display.value += '.' ">
+                <input type="button" value="0" style="background-color: black; color: white;"onclick="display.value += '0' ">
+                <input type="button" value="=" style="background-color: black; color: white;"onclick="display.value = eval(display.value) ">
+                <input type="button" value="*" style="background-color: grey;"onclick="display.value += '*' ">
+            </div>
+            
+        </form>
+    </div>
+</div>
+    </body>
+</html>

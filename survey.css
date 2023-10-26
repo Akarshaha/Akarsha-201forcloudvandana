@@ -1,0 +1,32 @@
+.container{
+    width: 35%;
+    height: 75vh;
+    background-color: rgb(201, 111, 14);
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    transform: translate(-50% -50%);
+}
+.info{
+    width: 75%;
+    height: 50vh;
+    background-color: rgb(27, 15, 15);
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    border-radius: 25px;
+    padding: 25px;
+
+}
+.temp{
+    text-align: center;
+    color: white;
+}
+.gio{
+    margin-top: 10px;
+    margin-left: auto;
+    font-size: large;
+    font: italic;
+    text-align: justify;
+    color: white;
+}
